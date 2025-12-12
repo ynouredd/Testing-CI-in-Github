@@ -1,0 +1,13 @@
+# .github/workflows/easy-pass.yml
+
+name: Easy Pass
+
+on:
+  workflow_dispatch:
+
+jobs:
+  always-pass:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Guaranteed pass step
+        run: echo "Test"
