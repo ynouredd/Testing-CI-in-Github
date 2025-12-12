@@ -1,4 +1,3 @@
-Overall this is a space mission project that aims to solve simple yet non-trivial problems under a set of assumptions. Refer to the examples folder to see some of the new functions in action. 
 
 Workflow 1
 This workflow demonstrates delta V calculations, both the amount available and the amount needed to acheive a desired orbit to ensure there is enough propellent. It then demonstrates what that orbit would look like in an ideal situation (no atmospheric or lunar effects) but introduces some anomalies during the orbit. It then uses one of the available anomaly detection techniques to find all the anomalous points and circles them on a figure with the trajectory.
